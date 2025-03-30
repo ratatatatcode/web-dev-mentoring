@@ -1,10 +1,10 @@
 const express = require('express');
 const router = express.Router();
 
-const { signup, login } = require("../controllers/authController");
+const { signup, login } = require('../controllers/authControllers');
 
 router.get('/', (req, res) => {
-    res.render("landingpage.ejs");
+    res.render('landingpage.ejs');
 });
 
 router.post('/api/auth/signup', signup);

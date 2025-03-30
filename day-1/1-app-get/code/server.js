@@ -10,7 +10,7 @@ app.set('view engine', 'ejs');
 
 // localhost:3000/
 app.get('/', (req, res) => {
-    res.render("landingpage.ejs");
+    res.render('landingpage.ejs');
 });
 
 const PORT = 3000;
