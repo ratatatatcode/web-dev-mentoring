@@ -4,6 +4,7 @@ const path = require('path');
 
 const auth = require('./routes/authRoutes');
 
+app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use('/static', express.static(path.join(__dirname, 'public')));
 app.set('view engine', 'ejs');
