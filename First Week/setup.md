@@ -26,7 +26,9 @@ You can either copy this or use it as a reference. However, installing packages 
     "path": "^0.12.7"
   },
   "devDependencies": {
-    "nodemon": "^3.1.9"
+    "nodemon": "^3.1.9",
+    "prettier": "^3.5.3",
+    "prettier-plugin-ejs": "^1.0.3",
   }
 }
 ```
@@ -69,6 +71,6 @@ npm install --save-dev nodemon
 ```
 You may install nodemon globally, but setting it up in the script will come in handy soon. Some hosting services require it.
 ```
-npm install -g nodemon
+npm install -g nodemon prettier prettier-plugin-ejs
 ```
 During the development process, you may choose not to include EJS and CSS so that the server doesn't refresh every time.
