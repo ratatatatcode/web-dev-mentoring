@@ -1,5 +1,5 @@
 **How to setup ExpressJS (NodeJS Framework)?**<br>
-You may just copy this or use as a reference. Installing packages yourself is recommended. Learning from trying is the best teacher... for me.<br>
+You can either copy this or use it as a reference. However, installing packages yourself is recommended. Learning by trying is the best teacher for me.<br>
 
 ```js
 // package.json
@@ -31,11 +31,10 @@ You may just copy this or use as a reference. Installing packages yourself is re
 }
 ```
 
-But first let's differentiate what the difference between dependencies and devDependencies.<br><br>
+But first let's differentiate what the difference between dependencies and devDependencies.<br>
 **dependencies**
 - These are required to run the project.
 - They are used in production (live, deployed app).
-<br>
 
 **devDependencies**
 - These are only needed during development.
@@ -44,12 +43,11 @@ But first let's differentiate what the difference between dependencies and devDe
 
 **Initialize a New Project**
 Now, let's start how can we manually do that...<br>
-with this, it will automatically setup your package.json file.
+With this, your package.json file will be set up automatically.
 ```
 npm init -y
 ```
-<br>
-Now go to your package.json and edit the 'index.js' to server.js.
+Now, go to your package.json and change 'index.js' to 'server.js'.
 
 **Install Runtime Dependencies**<br>
 ```
@@ -62,15 +60,15 @@ npm install --save-dev nodemon prettier autoprefixer daisyui prettier-plugin-ejs
 ```
 
 **Update your scripts**
-```
+```js
 "scripts": {
   "test": "echo \"Error: no test specified\" && exit 1",
   "dev": "npx nodemon --ext js,mjs,cjs,json,ejs,css server.js",
   "format": "prettier --write ."
 }
 ```
-You may use install the nodemon on global but setting it up in the script will come in handy soon. Some hosting website requires it.
+You may install nodemon globally, but setting it up in the script will come in handy soon. Some hosting services require it.
 ```
 npm install -g nodemon
 ```
-But through the development process, you may not include the ejs and css so it won't refresh the server everytime.
+During the development process, you may choose not to include EJS and CSS so that the server doesn't refresh every time.
