@@ -56,7 +56,7 @@ npm install dotenv ejs express express-ejs express-session firebase path
 
 **Install Development Dependencies**<br>
 ```
-npm install --save-dev nodemon prettier autoprefixer daisyui prettier-plugin-ejs
+npm install --save-dev nodemon
 ```
 
 **Update your scripts**
