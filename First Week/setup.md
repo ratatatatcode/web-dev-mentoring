@@ -74,3 +74,43 @@ You may install nodemon globally, but setting it up in the script will come in h
 npm install -g nodemon prettier prettier-plugin-ejs
 ```
 During the development process, you may choose not to include EJS and CSS so that the server doesn't refresh every time.
+
+Now add a new file and name it .prettierc, then copy and paste this,
+```
+{
+  "plugins": ["prettier-plugin-ejs"],
+  "overrides": [
+    {
+      "files": "*.ejs",
+      "options": {
+        "parser": "html"
+      }
+    }
+  ]
+}
+```
+This will help you format everything when you run **npm run format**, or you can simply use the **Prettier** extension.
+
+The difference is that npm run format often relies on a script defined in the project, whereas the Prettier extension formats the code directly within the editor.
+
+**Folder Structure**<br>
+This is how I will construct my folder structure,
+```
+project_name/
+- config/              # Configuration files (e.g., DB connections)
+- controllers/         # Route controller logic
+- node_modules/        # Node dependencies
+- public/              # Static assets (CSS, JS, images)
+- routes/              # Express route definitions
+- utils/               # Utility/helper functions
+- views/               # Frontend views (e.g., EJS templates)
+- .env                 # Environment variables
+- .gitignore           # Files/folders to ignore in git
+- .prettierrc          # Prettier configuration for code formatting
+- package-lock.json    # Auto-generated dependency lock file
+- package.json         # Project metadata and scripts
+- README.md            # Project documentation
+- server.js            # Entry point of the application
+```
+
+You might also want to add a **.gitignore** file if you’re working with GitHub. Don’t forget to include node_modules, .env, and any secret keys in it.
