@@ -113,4 +113,4 @@ project_name/
 - server.js            # Entry point of the application
 ```
 
-You might also want to add a **.gitignore** file if you’re working with GitHub. Don’t forget to include node_modules, .env, and any secret keys in it.
+You should never forget to include a **.gitignore** file if you’re working with GitHub. Make sure to add node_modules, .env, and any secret keys to it.
