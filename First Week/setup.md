@@ -114,3 +114,31 @@ project_name/
 ```
 
 You should never forget to include a **.gitignore** file if you’re working with GitHub. Make sure to add node_modules, .env, and any secret keys to it.
+
+**Setup your server.js**
+```js
+require('dotenv').config();
+const express = require("express");
+const app = express();
+const session = require("express-session");
+const path = require("path");
+
+app.use(
+    session ({
+        secret: process.env.SECRET_SESSION_KEY,
+        resave: false,
+        saveUninitialized: false,
+        cookie: { secure: false }
+    })
+);
+
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use("/static", express.static(path.join(__dirname, "public")));
+app.set("view engine", "ejs");
+
+PORT = process.env.PORT;
+app.listen(PORT, () => {
+    console.log(`Listening to PORT ${PORT}`);
+});
+```
