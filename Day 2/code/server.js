@@ -3,6 +3,7 @@ const express = require("express");
 const app = express();
 const session = require("express-session");
 const path = require("path");
+const auth = require("./routes/authRoutes");
 
 app.use(
     session ({
@@ -18,7 +19,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use("/static", express.static(path.join(__dirname, "public")));
 app.set("view engine", "ejs");
 
-app.get("/", (req, res) => res.send("Hello World"));
+app.use("/", auth);
 
 PORT = process.env.PORT;
 app.listen(PORT, () => {
