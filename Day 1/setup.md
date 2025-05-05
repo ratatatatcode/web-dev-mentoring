@@ -69,7 +69,7 @@ npm install --save-dev nodemon
   "format": "prettier --write ."
 }
 ```
-You may install nodemon globally, but setting it up in the script will come in handy soon.
+You may install nodemon globally...
 ```
 npm install -g nodemon prettier prettier-plugin-ejs
 ```
