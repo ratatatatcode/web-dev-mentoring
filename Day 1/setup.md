@@ -85,7 +85,7 @@ npm install -g nodemon prettier prettier-plugin-ejs
 ```
 During the development process, you may choose not to include EJS and CSS so that the server doesn't refresh every time.
 
-Now add a new file and name it .prettierrc, then copy and paste this,
+Now add a new file and name it **.prettierrc**, then copy and paste this,
 ```
 {
   "plugins": ["prettier-plugin-ejs"],
