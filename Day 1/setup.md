@@ -166,6 +166,6 @@ app.listen(PORT, () => {
 
 You can start running it by typing **npm run dev** or **npx nodemon server**.
 
-If it works, congratulations on your first 'Hello, World'!"
+If it works, congratulations on your first 'Hello World'!"
 
 Just to share something — I always start with 'Hello World' because, like many great stories, everything begins with a simple 'hello.' And also, to honor the tradition of most programmers, whose first code is 'Hello World'.
