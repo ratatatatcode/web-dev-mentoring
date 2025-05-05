@@ -1,3 +1,13 @@
+**Before we continue learning, do you really like web development? Is it truly your choice? What makes you want to do it? To impress your crush, friends, or relatives? To be the next Zuckerberg?**<br>
+
+Okay... don't tell me — keep it to yourself. But if the answer is yes, always remind yourself of that answer when you feel tired or start losing motivation.
+
+Enough of that. I know you hate studying, but let’s move forward. I won’t provide all the details, but this will serve as a guide to help you start your web development journey.
+
+Stop using only HTML, CSS, and JS... and start getting comfortable with...
+
+**Express JS**
+
 **How to setup ExpressJS (NodeJS Framework)?**<br>
 You can either copy this or use it as a reference. However, installing packages yourself is recommended. Learning by trying is the best teacher for me.<br>
 
