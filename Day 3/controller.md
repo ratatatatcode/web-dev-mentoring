@@ -1,11 +1,11 @@
-**Hey, be curious and examine every line.**<br>
-If and only if you have all the time in the world...
+👨‍💻 **Hey, be curious and examine every line.**<br>
+👨‍💻 If and only if you have all the time in the world...
 
-Or just ask ChatGPT and say, "Hi, I need an explanation for each line..."
+👨‍💻 Or just ask ChatGPT and say, "Hi, I need an explanation for each line..."
 
-Just a small reminder: **learn those lines and don’t rely on vibe coding**.
+👨‍💻 Just a small reminder: **learn those lines and don’t rely on vibe coding**.
 
-**I guess I talked too much. How about we talk about controllers?**<br>
+👨‍💻 **I guess I talked too much. How about we talk about controllers?**<br>
 Controllers are files or functions that contain the logic for handling incoming requests. Instead of putting all your logic directly in the route files (like authRoutes.js), controllers let you separate concerns: routes handle the **"what path?"** and controllers handle the **"what to do?"**.
 
 Try running the code and open **localhost:5000/login**. Input a random value just for testing.
@@ -60,8 +60,8 @@ app.use(express.urlencoded({ extended: true }));
 </form>
 ```
 
-Just try to understand it a bit, and we’ll see how it works after this.
+👨‍💻 Just try to understand it a bit, and we’ll see how it works after this.
 
-For real?!
+👩 For real?!
 
-Yes, we will be using Firebase now. F-I-R-E-B-A-S-E!
+👨‍💻 Yes, we will be using Firebase now. F-I-R-E-B-A-S-E!
