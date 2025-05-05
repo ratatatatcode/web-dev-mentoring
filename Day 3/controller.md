@@ -60,8 +60,8 @@ app.use(express.urlencoded({ extended: true }));
 </form>
 ```
 
-Just try to understand it a bit and we will see how it works after this one.
+Just try to understand it a bit, and we’ll see how it works after this.
 
 For real?!
 
-Yes, we will be using Firebase now. F I R E B A S E !
+Yes, we will be using Firebase now. F-I-R-E-B-A-S-E!
