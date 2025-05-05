@@ -51,9 +51,11 @@ But first let's differentiate what the difference between dependencies and devDe
 **devDependencies**
 - These are only needed during development.
 - Not included in production builds.
+  
+**Woah, wait. My heart is beating fast. Is this for real? My very first Express.js EJS web app?**
 <br>
 
-**Initialize a New Project**
+**Initialize a New Project**<br>
 Now, let's start how can we manually do that...<br>
 With this, your package.json file will be set up automatically.
 ```
