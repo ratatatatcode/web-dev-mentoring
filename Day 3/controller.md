@@ -61,7 +61,7 @@ app.use(express.urlencoded({ extended: true }));
 ```
 
 > 👨‍💻 Just try to understand it a bit, and we’ll see how it works after this.
+
 > 👩 For real?!
 
 > 👨‍💻 Yes, we will be using Firebase now. F-I-R-E-B-A-S-E!
-> > 
