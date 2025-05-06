@@ -28,6 +28,7 @@ app.listen(PORT, () => {
 > 👩 **But seriously, what are routes (for)?**<br>
 >
 > 👨‍💻 Routes in Express.js are used to define the endpoints for HTTP requests (like GET, POST, PUT, DELETE). These routes determine how your application will respond when users access specific URLs or interact with your app.
+> 
 > 👨‍💻 Instead of handling all the routes directly in server.js, you can organize them into separate files for better structure, especially as your application grows. This makes your code easier to maintain and scale.
 
 **Try running the program again and visit these urls**
