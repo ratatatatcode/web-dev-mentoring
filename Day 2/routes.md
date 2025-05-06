@@ -24,6 +24,7 @@ app.listen(PORT, () => {
 });
 ```
 > 👨‍💻 This will function the same, but would you handle everything — GET, POST, UPDATE, and DELETE in server.js?
+> 
 > 👩 **But seriously, what are routes (for)?**<br>
 >
 > 👨‍💻 Routes in Express.js are used to define the endpoints for HTTP requests (like GET, POST, PUT, DELETE). These routes determine how your application will respond when users access specific URLs or interact with your app.
@@ -36,8 +37,8 @@ localhost:5000/signup
 localhost:5000/recovery
 ```
 
-> 👩 **Woah, what am I seeing, right now?!**<br>
-> 👨‍💻 They are probably the pages being called from the views folder.
+> 👩 Woah, what am I seeing, right now?!<br>
+> 👨‍💻 They are probably the pages being called from the views folder.<br>
 > 👩 But how does it know where the HTML or EJS came from?
 >
 > 👨‍💻 Simple, because of this...
