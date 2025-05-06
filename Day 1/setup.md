@@ -1,9 +1,9 @@
 > 👨‍💻 Before we continue learning, do you really like web development? Is it truly your choice? What makes you want to do it? To impress your crush, friends, or relatives? To be the next Zuckerberg?<br>
-
+>
 > 👨‍💻 Okay... don't tell me — keep it to yourself. But if the answer is yes, always remind yourself of that answer when you feel tired or start losing motivation.
-
+>
 > 👨‍💻 Enough of that. I know you hate studying, but let’s move forward. I won’t provide all the details, but this will serve as a guide to help you start your web development journey.
-
+>
 > 👨‍💻 Stop using only HTML, CSS, and JS... and start getting comfortable with...
 
 **How to setup ExpressJS (NodeJS Framework)?**<br>
@@ -123,7 +123,7 @@ project_name/
 ```
 
 > 👨‍💻 You should never forget to include a **.gitignore** file if you’re working with GitHub. Make sure to add > > node_modules, .env, and any secret keys to it.
-
+>
 > 👨‍💻 **Never push your .env, node_modules, or any secret keys to Git!**
 
 Inside your **.env**, add the following:
@@ -164,7 +164,7 @@ app.listen(PORT, () => {
 ```
 
 > 👨‍💻 You can start running it by typing **npm run dev** or **npx nodemon server**.
-
+>
 > 👨‍💻 If it works, congratulations on your first 'Hello World'!"
-
+>
 > 👨‍💻 Just to share something — I always start with 'Hello World' because, like many great stories, everything begins with a simple 'hello.' And also, to honor the tradition of most programmers, whose first code is 'Hello World'.
