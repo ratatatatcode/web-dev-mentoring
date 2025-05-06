@@ -6,8 +6,6 @@
 
 > 👨‍💻 Stop using only HTML, CSS, and JS... and start getting comfortable with...
 
-**Express JS**
-
 **How to setup ExpressJS (NodeJS Framework)?**<br>
 You can either copy this or use it as a reference. However, installing packages yourself is recommended. Learning by trying is the best teacher for me.<br>
 
