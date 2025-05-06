@@ -45,7 +45,7 @@ localhost:5000/recovery
 app.set("view engine", "ejs");
 ```
 
-**BONUS - DRY (Don't Repeat Yourself)**
+**BONUS**<br>
 Check one page from the views/auth. Have you noticed the...
 ```js
 <%- include('../partials/head') %>
