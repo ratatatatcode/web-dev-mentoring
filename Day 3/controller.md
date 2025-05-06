@@ -14,7 +14,7 @@ Now, take a look at the routes and controllers folders...
 
 It’s behaving the same way, but with the POST HTTP request, where you can actually communicate with the frontend (the EJS) and your backend (Express.js).
 
-**Bonus**<br>
+**BONUS**<br>
 **express.json()** is used to handle JSON payloads from the frontend (typically for AJAX/fetch requests).
 ```js
 // server.js
