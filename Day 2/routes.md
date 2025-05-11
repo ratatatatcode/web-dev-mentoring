@@ -1,4 +1,4 @@
-> 👩 **Woah, routes...**<br>
+> 👩 Woah, routes...<br>
 > 👩 What are routes!?
 >
 > 👨‍💻 Normally, you won't need to use routes for a basic application, but practicing with a proper folder structure can make your development easier to navigate and understand.
